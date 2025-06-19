@@ -1,3 +1,7 @@
+// link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+
+
 let score = 33
 
 console.log(typeof score);
@@ -60,4 +64,62 @@ console.log(stringNumber);
 // output=33;
 console.log(typeof stringNumber);
 // output=string;
+
+
+// **********************operations********************
+
+let value = 3
+let negValue = -value
+console.log(negValue);
+// output= -3;
+console.log(2**2);
+// output = 2 raise to the power 2;
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+let str1= "hardik";
+let str2= " hello";
+let str3= str1+str2;
+console.log(str3);
+// output = hardik hello;
+
+console.log("1" + 2);
+// output=12;
+console.log(1 + "2");
+// output=12;
+ console.log("1" + 2 + 2);
+ // output=122;
+console.log(1 + 2 + "2");
+// output=32;
+// for above read about operator precedance;
+
+console.log(true);
+// output=true;
+ console.log(+true);
+ // output=1;
+console.log(+"");
+// output=0;
+// console.log(true+); will give error
+
+
+let num1, num2, num3
+
+num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter);
+//output =101;
+ // prefix and postix ++ concept ;
+
+
+ // link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+
+
 
