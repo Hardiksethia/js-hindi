@@ -9,39 +9,39 @@ console.log(typeof(score)); // this written as a method (as it is in parenthesis
 // output = number
 
 
-let score = "33"
+ score = "33"
 
 console.log(typeof score);
 console.log(typeof(score)); // this written as a method (as it is in parenthesis)
 // output = string
 
 
-let score="33abc"
+ score="33abc" 
 let valueInNumber = Number(score);
 console.log(typeof valueInNumber);
 // this will give output=number;
 console.log(valueInNumber);
 // this will give output=NaN (not a number)
 
-let score = null;
+ score = null;
 console.log(typeof valueInNumber);
 // this will give output=number;
 console.log(valueInNumber);
 // this will give output=0
 
-let score = undefined;
+ score = undefined;
 console.log(typeof valueInNumber);
 // this will give output=number;
 console.log(valueInNumber);
 // this will give output=NaN;
 
-let score = true;
+ score = true;
 console.log(typeof valueInNumber);
 // this will give output=number;
 console.log(valueInNumber);
 // this will give output=1;
 
-let score = "string";
+ score = "string";
 console.log(typeof valueInNumber);
 // this will give output=number;
 console.log(valueInNumber);
