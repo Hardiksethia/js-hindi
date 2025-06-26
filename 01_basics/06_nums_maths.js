@@ -99,11 +99,7 @@ const randomValue = Math.floor((Math.random() * (max - min + 1)) + min)
 
 
 
-
-
-
-
-
+// if min =10 and max=20 then the value (Math.floor(Math.random()*(max-min +1)) )  => ensure that it will give value in the range [0,10] ..You have said 1 is added to avoid 0 but basically 1 is added to increase the range upto (10) ..if we will not add 1 it will give value in the range [0,9]
 
 
 
